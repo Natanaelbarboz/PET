@@ -6,32 +6,31 @@
     font-family: Arial, sans-serif;
 }
 
-/* Estilo geral */
-
-/* Corpo da página */
+/* Corpo da página (fixo, sem rolagem) */
 body {
     background-image: url('/static/Imagem1.png'); /* Substitua pela URL da sua imagem de fundo */
     background-size: cover;
     background-position: center;
-    min-height: 100vh; /* Alterado de height: 100vh para evitar cortes em telas pequenas */
-    padding: 20px;
+    height: 100vh; /* Página fixa sem rolagem */
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #f4f4f4;
     color: #333;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    overflow: hidden; /* Impede a rolagem da página */
 }
 
-/* Container principal */
+/* Container principal (com rolagem interna) */
 .container {
-    width: 90%; /* Adicionado para maior flexibilidade em telas menores */
+    width: 90%;
     max-width: 600px;
-    margin: 20px auto;
+    max-height: 80vh; /* Define um tamanho máximo para ativar a rolagem */
     background: #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; /* Habilita a rolagem vertical apenas dentro do container */
 }
 
 /* Títulos */
@@ -49,7 +48,7 @@ h1 {
     border-radius: 5px;
     margin: 5px;
     transition: 0.3s;
-    font-size: 1rem; /* Ajuste para melhor adaptação */
+    font-size: 1rem;
 }
 
 .btn:hover {
@@ -79,7 +78,7 @@ form {
 }
 
 input {
-    width: 100%; /* Garantindo que os inputs ocupem o espaço correto */
+    width: 100%;
     padding: 10px;
     margin: 5px 0;
     border: 1px solid #ccc;
@@ -89,7 +88,7 @@ input {
 button {
     width: 100%;
     padding: 12px;
-    background-color: #ffa07a; /* Cor suave para remeter ao cuidado com os animais */
+    background-color: #ffa07a;
     border: none;
     border-radius: 5px;
     font-size: 1.1rem;
@@ -99,7 +98,7 @@ button {
 }
 
 button:hover {
-    background-color: #ff6347; /* Cor mais forte quando o botão for pressionado */
+    background-color: #ff6347;
 }
 
 /* Responsividade */
