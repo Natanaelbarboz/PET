@@ -1,0 +1,67 @@
+/* Definindo o estilo global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Corpo da página */
+body {
+    background-image: url('/static/Imagem1.png'); /* Substitua pela URL da sua imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Container do formulário */
+.container {
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente */
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+}
+
+/* Título do formulário */
+h2 {
+    margin-bottom: 30px; /* Aumenta o espaço abaixo do título */
+    font-size: 2rem;
+    color: #fff;
+}
+
+/* Estilo dos campos de input */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    font-size: 1rem;
+    margin-top: 10px; /* Adiciona um espaço acima dos inputs, se necessário */
+}
+
+/* Estilo do botão */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ffa07a; /* Cor suave para remeter ao cuidado com os animais */
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ff6347; /* Cor mais forte quando o botão for pressionado */
+}
