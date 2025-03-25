@@ -8,11 +8,12 @@
 
 /* Corpo da página (fixo, sem rolagem) */
 body {
-    background-image: url('/static/Imagem1.png'); /* Substitua pela URL da sua imagem de fundo */
+    background-image: url('/static/Imagem1.png'); 
     background-size: cover;
     background-position: center;
     height: 100vh; /* Página fixa sem rolagem */
     display: flex;
+    flex-direction: column; /* Alinha os containers verticalmente */
     justify-content: center;
     align-items: center;
     background-color: #f4f4f4;
@@ -21,11 +22,17 @@ body {
     overflow: hidden; /* Impede a rolagem da página */
 }
 
+/* Novo container do cabeçalho */
+.header-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 /* Container principal (com rolagem interna) */
 .container {
     width: 90%;
     max-width: 600px;
-    max-height: 80vh; /* Define um tamanho máximo para ativar a rolagem */
+    max-height: 70vh; /* Define um tamanho máximo para ativar a rolagem */
     background: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -103,10 +110,18 @@ button:hover {
 
 /* Responsividade */
 @media (max-width: 600px) {
+    .header-container {
+        margin-bottom: 10px;
+    }
+
+    .container {
+        max-height: 65vh;
+    }
+
     body {
         font-size: 14px;
     }
-    
+
     .btn {
         padding: 8px 12px;
         font-size: 14px;
