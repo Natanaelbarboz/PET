@@ -8,7 +8,7 @@ Porjeto de web service.
  --> Banco de dados: MongoDB</br></br>
 
  * O site está hospedado de forma gratuita no RENDER, caso o link abaixo demore a carregar, gentileza acessa a pasta:</br>
- --> /1 - WEB e executar o arquivo app.py e assim abrirar a tela do seu navegador com a aplicação.</br>
+ --> Executar o arquivo app.py e assim abrirar a tela do seu navegador com a aplicação.</br>
  * Link: https://pet-k90a.onrender.com </br></br>
 
 * Tela de Login - WEB:</br>
