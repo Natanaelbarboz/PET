@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONG - VIDAS PET</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>CADASTRO AMIGO DOS PETS</h1>
+        <form method="POST">
+            Nome: <input type="text" name="Nome"><br>
+            Idade: <input type="number" name="Idade"><br>
+            Contato: <input type="number" name="Contato"><br>
+            Rua: <input type="text" name="Rua"><br>
+            Bairro: <input type="text" name="Bairro"><br>
+            Cidade: <input type="text" name="Cidade"><br>
+            <button type="submit">Adicionar</button>
+        </form>
+    </div>
+</body>
+</html>
