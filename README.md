@@ -1,6 +1,6 @@
-Porjeto de web service.
+N708-Proj aplic multiplataforma etapa 2.
 
-1 - Aplicação web de cadastro de contatos dos voluntários da ONG VIDAS PET </br>
+Projeto prárico de site para cadastro de interessados em adotar pets da ong  ONG VIDAS PET</br></br>
 
 * Aplicação criada com HTML, CSS, Flesk e Mongo DB.</br>
  --> Font End: HTML, CSS</br>
