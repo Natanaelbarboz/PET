@@ -18,7 +18,7 @@ def login():
         senha = request.form['senha']    # Pega o valor do campo 'senha'
         try:
             uri = f'mongodb+srv://{usuario}:{senha}@n703.dfo9g.mongodb.net/?retryWrites=true&w=majority&appName=N703'
-            print(f'{usuario}, {senha}')
+            # print(f'{usuario}, {senha}')
             usuario = None
             senha = None
             client = MongoClient(uri)
