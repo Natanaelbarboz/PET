@@ -48,16 +48,20 @@ def adicionar():
         nome = request.form['Nome']
         idade = request.form['Idade']
         contato = request.form['Contato']
+        raca = request.form['Raca']
         rua = request.form['Rua']
         bairro= request.form['Bairro']
         cidade = request.form['Cidade']
+        status = request.form['Status']
         pessoa = {
             'Nome': nome,
             'Idade': idade,
             'Contato': contato,
+            'Raca':raca,
             'Rua': rua,
             'Bairro': bairro,
-            'Cidade': cidade
+            'Cidade': cidade,
+            'Status':status
         }
         pessoas.insert_one(pessoa)  # Inserir no MongoDB
         return redirect(url_for('index'))
@@ -76,16 +80,20 @@ def editar(id):
         nome = request.form['Nome']
         idade = request.form['Idade']
         contato = request.form['Contato']
+        raca = request.form['Raca']
         rua = request.form['Rua']
         bairro = request.form['Bairro']
         cidade = request.form['Cidade']
+        status = request.form['Status']
         pessoas.update_one({'_id': ObjectId(id)}, {'$set': {
             'Nome': nome,
             'Idade': idade,
             'Contato': contato,
+            'Raca':raca,
             'Rua': rua,
             'Bairro': bairro,
-            'Cidade': cidade
+            'Cidade': cidade,
+            'Status':status
         }})
         return redirect(url_for('index'))
     

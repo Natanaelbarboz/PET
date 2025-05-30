@@ -8,14 +8,16 @@
 </head>
 <body>
     <div class="container">
-        <h1>EDITAR AMIGO DOS PETS</h1>
+        <h1>EDITAR CADASTRO DE ADOÇÃO</h1>
         <form method="POST">
             Nome: <input type="text" name="Nome" value="{{ pessoa.Nome }}"><br>
             Idade: <input type="number" name="Idade" value="{{ pessoa.Idade }}"><br>
             Contato: <input type="number" name="Contato" value="{{ pessoa.Contato }}"><br>
+            Raça: <input type="text" name="Raca" value="{{ pessoa.Raca }}"><br>
             Rua: <input type="text" name="Rua" value="{{ pessoa.Rua }}"><br>
             Bairro: <input type="text" name="Bairro" value="{{ pessoa.Bairro }}"><br>
             Cidade: <input type="text" name="Cidade" value="{{ pessoa.Cidade }}"><br>
+            Status: <input type="text" name="Status" value="{{ pessoa.Status }}"><br>
             <button type="submit">Salvar Alterações</button>
         </form>
     </div>

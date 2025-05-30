@@ -10,9 +10,10 @@
 
     <div class="header-container">
         <h1>VIDAS PET - ONG DE RESGATE</h1>
-        <a class="btn" href="{{ url_for('adicionar') }}">Adicionar Amigo</a>
+        <h2>Lista de Interessados em adoção</h2><br>
+        <a class="btn" href="{{ url_for('adicionar') }}">Adicionar Interessado</a>
     </div>
-
+    
     <div class="container">
 
         <ul>
@@ -21,9 +22,11 @@
                     Nome: {{ pessoa.Nome }} <br>
                     Idade: {{ pessoa.Idade }} anos <br>
                     Contato: {{ pessoa.Contato }} <br>
+                    Raça: {{ pessoa.Raca }} <br>
                     Rua: {{ pessoa.Rua }} <br>
                     Bairro: {{ pessoa.Bairro }} <br>
                     Cidade: {{ pessoa.Cidade }} <br>
+                    Status: {{ pessoa.Status }} <br>
                     <div>
                         <a class="btn" href="{{ url_for('editar', id=pessoa._id) }}">Editar</a>
                         <a class="btn" href="{{ url_for('deletar', id=pessoa._id) }}" style="background: red;">Deletar</a>
