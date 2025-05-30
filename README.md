@@ -12,19 +12,19 @@ Projeto prárico de site para cadastro de interessados em adotar pets da ong  ON
  * Link: https://pet-k90a.onrender.com </br></br>
 
 * Tela de Login - WEB:</br>
-![Tela de Login WEB](img_readme/tela_login_web.png)</br>
+![Tela de Login WEB](img_readme/tela_login.png)</br>
 
 * Tela Principal - WEB:</br>
-![Tela principal WEB](img_readme/tela_principal_web.png)</br>
+![Tela principal WEB](img_readme/tela_principal.png)</br>
 
 * Tela de Cadastro de Amigo - WEB:</br>
-![Tela cadastro WEB](img_readme/tela_cadastro_web.png)</br>
+![Tela cadastro WEB](img_readme/tela_cadastro.png)</br>
 
 * Tela de Edição de Amigo - WEB:</br>
-![Tela edição do WEB](img_readme/tela_edicao_web.png)</br>
+![Tela edição do WEB](img_readme/tela_edicao.png)</br>
 
 * Boatão de Exclusão - WEB:</br>
-![Botão de exclusão de amigo WEB](img_readme/btn_excluir_web.png)</br>
+![Botão de exclusão de amigo WEB](img_readme/btn_excluir.png)</br>
 
 
 
