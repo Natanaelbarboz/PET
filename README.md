@@ -1,14 +1,15 @@
 N708-Proj aplic multiplataforma etapa 2.
 
-Projeto prárico de site para cadastro de interessados em adotar pets da ong  ONG VIDAS PET</br></br>
+Projeto prático de site para cadastro de interessados em adotar pets da ong  ONG VIDAS PET</br></br>
 
-* Aplicação criada com HTML, CSS, Flesk e Mongo DB.</br>
+* Aplicação criada com HTML, CSS, Python, Flesk e Mongo DB.</br>
  --> Font End: HTML, CSS</br>
- --> Back-end: Flask</br>
+ --> Back-end: Python, Flask</br>
  --> Banco de dados: MongoDB</br></br>
 
- * O site está hospedado de forma gratuita no RENDER, caso o link abaixo demore a carregar, gentileza acessa a pasta:</br>
- --> Executar o arquivo app.py e assim abrirar a tela do seu navegador com a aplicação (lembrando que para rodar de formar local é necessário ter o python instalado na máquina, instalar as bibliotecas necessárias rodando o pip install -r requirements.txt e depois rodar vida cmd python app.py).</br>
+ * O site está hospedado de forma gratuita no RENDER, caso o link abaixo demore a carregar, gentileza seguir os passos abaixo:</br>
+ --> No terminal,  na pasta projeto, rodar o comando: pip install -r requirements.txt para instalar todas as dependências necessárias para rodar o projeto localmenete (lembrando que para rodar de formar local é necessário ter o python instalado na máquina).</br>
+ --> Executar o arquivo app.py e assim abrirar a tela do seu navegador com a aplicação.</br>
  * Link: https://pet-k90a.onrender.com </br></br>
 
 * Tela de Login - WEB:</br>
